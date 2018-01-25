@@ -45,7 +45,8 @@ var opt = {
 
 lt_client(opt.port, opt, function(err, tunnel) {
     if (err) {
-        throw err;
+        console.log("Unable to start tunnel " + err);
+        return
     }
 
     console.log('your url is: %s', tunnel.url);
