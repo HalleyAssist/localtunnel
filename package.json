@@ -12,6 +12,7 @@
     "axios": "^0.17.1",
     "debug": "^2.6.9",
     "openurl": "^1.1.1",
+    "q": "^1.5.1",
     "yargs": "^3.32.0"
   },
   "devDependencies": {
